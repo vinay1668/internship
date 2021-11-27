@@ -1,0 +1,30 @@
+body, p{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+   font-weight:500;
+   line-height: 2;
+
+
+}
+
+.column-left{
+  float: left;
+  width: 33.333%;
+
+}
+.column-right{
+
+
+  position: fixed;
+  top: 10%;
+  margin-left: 75%;
+
+
+}
+.column-center{
+  position: relativ;
+  display: inline-block;
+  width: 50.55%;
+  margin-left: 20%;
+}
