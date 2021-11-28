@@ -10,21 +10,37 @@ body, p{
 
 .column-left{
   float: left;
-  width: 33.333%;
+  width: 10%;
 
 }
 .column-right{
 
 
-  position: fixed;
+  position: absolute;
   top: 10%;
-  margin-left: 75%;
+  margin-left: 65%;
 
 
 }
 .column-center{
-  position: relativ;
+  position: relative;
   display: inline-block;
   width: 50.55%;
-  margin-left: 20%;
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+
+  }
+.column-right{
+  visibility: hidden;
+}
+
+.column-center{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+}
 }
